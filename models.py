@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from datetime import date
 
 Base = declarative_base()
-#clases biblio
+#clases bibli
 class Autor(Base):
     __tablename__ = 'autores'
     id = Column(Integer, primary_key=True)
